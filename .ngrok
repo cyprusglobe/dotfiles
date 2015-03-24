@@ -1,0 +1,10 @@
+auth_token: your_auth_token 
+
+tunnels:
+    client:
+        subdomain: "koder"
+        proto:
+            http: 8100
+    ssh:
+        proto:
+            tcp: 22
